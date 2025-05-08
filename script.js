@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ".forecast-item-container"
   );
 
-  const apikey = "f5cc92d103ab8cc0db4b0022bef8dddf";
+  const apikey = ""; //Use your own API key from openweathermap.org
 
   if (cityInput && searchBtn) {
     searchBtn.addEventListener("click", () => {
